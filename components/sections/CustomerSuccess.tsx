@@ -43,7 +43,7 @@ export default function CustomerSuccess() {
             />
           </div>
         </div>
-        <div className="relative w-full  flex flex-row gap-10 mt-24">
+        <div className="relative w-full  flex flex-row gap-10 mt-20">
           {/* Additional customer stories can be added here following the same structure */}
           <div className="w-1/3 flex flex-col">
             <h5 className="mb-4 text-gray-800 text-lg font-semibold">
@@ -51,7 +51,7 @@ export default function CustomerSuccess() {
             </h5>
             <div className="relative w-full">
               <Image
-                src="/images/building.jpg"
+                src="/images/qatar.jpg"
                 alt="Dubai Islamic Bank building"
                 fill={false}
                 width={400}
@@ -76,7 +76,7 @@ export default function CustomerSuccess() {
             <h5 className="mb-4 text-gray-800 text-lg font-semibold">OMIFCO</h5>
             <div className="relative w-full">
               <Image
-                src="/images/building.jpg"
+                src="/images/omifco.jpg"
                 alt="Dubai Islamic Bank building"
                 fill={false}
                 width={400}
@@ -101,11 +101,11 @@ export default function CustomerSuccess() {
             <h5 className="mb-4 text-gray-800 text-lg font-semibold">DIFC</h5>
             <div className="relative w-full">
               <Image
-                src="/images/building.jpg"
+                src="/images/difcs.jpg"
                 alt="Dubai Islamic Bank building"
                 fill={false}
                 width={400}
-                height={200}
+                height={150}
                 className="object-cover rounded-lg"
                 priority
               />

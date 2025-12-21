@@ -3,11 +3,29 @@ import Link from "next/link";
 
 export default function LatestNews() {
   return (
-    <section className="w-full py-20">
-      <div className="max-w-7xl mx-auto px-6">
+    // NEW: relative + overflow-hidden
+    <section className="relative w-full py-20 overflow-hidden">
+      {/* NEW: Left gradient glow */}
+      <div
+        className="absolute left-[-20%] top-1/2 -translate-y-1/2 
+                      w-[60%] h-[80%]
+                      bg-gradient-to-r from-indigo-600 via-blue-500 to-transparent
+                      opacity-10 blur-3xl"
+      />
+
+      {/* NEW: Right gradient glow */}
+      <div
+        className="absolute right-[-20%] top-1/2 -translate-y-1/2 
+                      w-[60%] h-[80%]
+                      bg-gradient-to-l from-purple-500 via-blue-500 to-transparent
+                      opacity-10 blur-3xl"
+      />
+
+      {/* NEW: z-10 wrapper */}
+      <div className="relative z-10 max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="flex items-center justify-between mb-12">
-          <h4 className="text-lg font-medium text-black">Latest News</h4>
+          <h4 className="text-xl font-medium text-black">Latest News</h4>
           <Link
             href="#"
             className="text-sm font-medium text-indigo-500 border border-indigo-500 rounded-md px-4 py-2 hover:bg-blue-50"
