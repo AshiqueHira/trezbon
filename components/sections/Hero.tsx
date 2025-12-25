@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import HeroSlider from "./HeroSlider";
 import HeroFocus from "./HeroFocus";
 
 export default function Hero() {
