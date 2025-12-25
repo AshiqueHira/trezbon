@@ -1,3 +1,4 @@
+import { ContactSection } from "@/components/sections/ContactSection";
 import CustomerSuccess from "@/components/sections/CustomerSuccess";
 import { ExploreProducts } from "@/components/sections/ExploreProducts";
 import { ExploreServices } from "@/components/sections/ExploreServices";
@@ -17,6 +18,7 @@ export default function Home() {
       <ExploreProducts />
       <LatestBlogs />
       <FAQSection />
+      <ContactSection />
     </main>
   );
 }
