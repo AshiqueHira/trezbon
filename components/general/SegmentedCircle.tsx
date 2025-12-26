@@ -2,11 +2,11 @@ import Image from "next/image";
 
 const images = [
   "/images/qatar.jpg",
-  "/images/qatar.jpg",
-  "/images/qatar.jpg",
-  "/images/qatar.jpg",
-  "/images/qatar.jpg",
-  "/images/qatar.jpg",
+  "/images/building.jpg",
+  "/images/one.jpg",
+  "/images/two.jpg",
+  "/images/three.jpg",
+  "/images/happy.jpg",
 ];
 
 export default function SegmentedCircle() {
